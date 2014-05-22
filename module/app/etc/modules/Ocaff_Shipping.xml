@@ -1,0 +1,8 @@
+<config>
+	<modules>
+		<Ocaff_Shipping>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Ocaff_Shipping>
+	</modules>
+</config>

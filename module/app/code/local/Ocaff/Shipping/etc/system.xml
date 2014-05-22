@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+   <sections>
+    <carriers>
+        <groups>
+            <ocaff_shipping translate="label" module="shipping">
+                <label>Custom Shipping</label>
+                <frontend_type>text</frontend_type>
+                <sort_order>13</sort_order>
+                <show_in_default>1</show_in_default>
+                <show_in_website>1</show_in_website>
+                <show_in_store>1</show_in_store>
+                   <fields>
+					   <!-- If you want to put configuration variables in, do so here -->
+                    </fields>
+                </ocaff_shipping>
+            </groups>
+        </carriers>
+    </sections>
+</config>

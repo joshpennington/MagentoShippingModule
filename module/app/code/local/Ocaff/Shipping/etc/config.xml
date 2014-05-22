@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Ocaff_Shipping>
+			<version>0.1.0</version>
+		</Ocaff_Shipping>
+	</modules>
+ 
+	<global>
+		<models>
+			<ocaff_shipping>
+				<class>Ocaff_Shipping_Model</class>
+			</ocaff_shipping>
+		</models>
+		<resources>
+			<ocaff_shipping_setup>
+				<setup>
+					<module>Ocaff_Shipping</module>
+				</setup>
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</ocaff_shipping_setup>
+		</resources>
+	</global>
+	<default>
+		<carriers>
+			<shippingmethod>
+				<active>1</active>
+				<sallowspecific>0</sallowspecific>
+				<model>ocaff_shipping/carrier_shippingmethod</model>
+				<name>Custom Shipping Module</name>
+				<title>Custom Shipping Module</title>
+				<specificerrmsg>
+					This shipping method is currently unavailable.
+					If you would like to ship using this shipping
+					method, please contact us.
+				</specificerrmsg>
+				<handling_type>F</handling_type>
+			</shippingmethod>
+		</carriers>
+	</default>
+</config>
